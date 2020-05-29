@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-color: #ff467e;
+  padding: 5%;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3 {
+  padding: 10px;
+  color: #fd94b4;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.pink{
+  color: #fd94b4;
+  border-color: #fd94b4;
+}
+
+.pink:hover {
+  color: #fd94b4;
+  border-color: #f12b6b;
+  background-color: #ff467e;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
